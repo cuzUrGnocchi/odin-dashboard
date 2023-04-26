@@ -17,7 +17,7 @@ button {
     font-weight: bold;
 }
 
-a:not(.sidebar a, .profile a, h2 a):hover {
+a:hover {
     text-decoration-line: underline;
 }
 
@@ -72,7 +72,7 @@ a:not(.sidebar a, .profile a, h2 a):hover {
 }
 
 .sidebar img {
-    background-color: white;
+    filter: invert(100%);
 }
 
 .logo {
